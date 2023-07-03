@@ -4,5 +4,5 @@ onready var text_box = $text_box
 
 
 func _ready():
-	text_box.label_text = "test test test"
+	text_box.label_text = "PinGuinAss"
 	text_box.text_start()
