@@ -20,4 +20,4 @@ func game_begin():
 
 
 func _on_Timer_timeout():
-	get_tree().change_scene("res://game_self/game_scenes/scene_test.tscn")
+	get_tree().change_scene("res://game_self/game_scenes/main.tscn")
