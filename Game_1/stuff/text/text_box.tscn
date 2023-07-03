@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://stuff/text/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://stuff/text/text_box.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+
+[node name="text_box" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 25.0
+margin_top = -150.0
+margin_right = -25.0
+margin_bottom = -25.0
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+margin_right = 550.0
+margin_bottom = 125.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 40.0
+margin_top = 460.0
+margin_right = 560.0
+margin_bottom = 489.0
+custom_fonts/font = ExtResource( 1 )
+text = "test text test text"
+autowrap = true
+percent_visible = 0.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.05
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
