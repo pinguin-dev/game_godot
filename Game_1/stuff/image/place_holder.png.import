@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/place_holder.png-7d2e832b9d2f946ada36f83199f934e5.stex"
+path="res://.import/place_holder.png-f0b1eeb89673ccba7f100488f6d689c9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://stuff/place_holder.png"
-dest_files=[ "res://.import/place_holder.png-7d2e832b9d2f946ada36f83199f934e5.stex" ]
+source_file="res://stuff/image/place_holder.png"
+dest_files=[ "res://.import/place_holder.png-f0b1eeb89673ccba7f100488f6d689c9.stex" ]
 
 [params]
 
