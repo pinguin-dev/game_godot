@@ -1,6 +1,5 @@
 extends Control
 
-
 var game_begun = false
 var alpha_mod
 

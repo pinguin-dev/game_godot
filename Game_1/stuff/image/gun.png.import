@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-a0e26582889ce5e6cd4321a903166524.stex"
+path="res://.import/gun.png-ade88542e2602a976c0c398ce1dc8690.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://stuff/ass_images/icon.png"
-dest_files=[ "res://.import/icon.png-a0e26582889ce5e6cd4321a903166524.stex" ]
+source_file="res://stuff/image/gun.png"
+dest_files=[ "res://.import/gun.png-ade88542e2602a976c0c398ce1dc8690.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

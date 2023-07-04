@@ -6,6 +6,7 @@ var horizontal_speed = 350.0
 
 var isMelee = false 
 
+
 func _physics_process(delta):
 	if Input.is_action_pressed("move_right"):
 		position.x += horizontal_speed * delta
@@ -16,10 +17,11 @@ func _physics_process(delta):
 	if Input.is_action_pressed("move_down"):
 		position.y += vertical_speed * delta
 
+
 func _process(delta):
 	if Input.is_action_just_pressed("attack_change"):
 		change_attack()
-	if Input.is_action_just_pressed("attack"):
+	if Input.is_action_pressed("attack"):
 		if isMelee:
 			hit(0)
 		else:
@@ -30,8 +32,10 @@ func _process(delta):
 func shoot(type):
 	$Gun.attack(type)
 
+
 func hit(type):
 	$Sword.attack()
+
 	
 func change_attack():
 	isMelee = !isMelee

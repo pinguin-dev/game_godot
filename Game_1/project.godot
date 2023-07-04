@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Game 1"
-config/icon="res://stuff/ass_images/icon.png"
+config/icon="res://stuff/image/icon.png"
 
 [display]
 

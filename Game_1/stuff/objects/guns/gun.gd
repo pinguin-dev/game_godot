@@ -1,7 +1,7 @@
 extends Sprite
 
-var shooting_speed
 const bullets_paths = [preload('res://stuff/objects/bullets/bullet.tscn')]
+
 
 func attack(type):
 	var bullet = bullets_paths[type].instance()

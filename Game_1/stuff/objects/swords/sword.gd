@@ -1,4 +1,5 @@
 extends Sprite
 
-func attack():	
+
+func attack():
 	pass
