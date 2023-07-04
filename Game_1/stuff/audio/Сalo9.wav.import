@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Сalo9.wav-89ff81433a5fa08db3c0b29175143b1a.sample"
+
+[deps]
+
+source_file="res://stuff/audio/Сalo9.wav"
+dest_files=[ "res://.import/Сalo9.wav-89ff81433a5fa08db3c0b29175143b1a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
