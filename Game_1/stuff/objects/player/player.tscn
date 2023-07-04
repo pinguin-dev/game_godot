@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://stuff/objects/player/player.gd" type="Script" id=1]
+[ext_resource path="res://stuff/image/place_holder.png" type="Texture" id=2]
 [ext_resource path="res://stuff/objects/swords/sword.tscn" type="PackedScene" id=3]
 [ext_resource path="res://stuff/objects/guns/gun.tscn" type="PackedScene" id=4]
 
@@ -20,6 +21,8 @@ scale = Vector2( 5, 5 )
 shape = SubResource( 1 )
 
 [node name="Person" type="Sprite" parent="."]
+position = Vector2( 20, 22 )
+texture = ExtResource( 2 )
 
 [node name="Gun" parent="." instance=ExtResource( 4 )]
 
